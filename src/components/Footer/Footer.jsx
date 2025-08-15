@@ -16,30 +16,30 @@ export default function Footer(){
                     <button className="mt-3 lg:mt-0 py-1.5 px-7 rounded-full text-lg font-bold border hover:bg-blue-700">Join Us <FontAwesomeIcon icon={faArrowRight}/></button>
                 </div>
                 <div>
-                    <h1>Quick Links</h1>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Our Products</li>
-                        <li>Careers</li>
-                        <li>Contact</li>
+                    <h1 className="text-[20px] font-bold mb-[10px]">Quick Links</h1>
+                    <ul className="py-[5px] px-[8px]">
+                        <li className="mb-[12px]">About Us</li>
+                        <li className="mb-[12px]">Our Products</li>
+                        <li className="mb-[12px]">Careers</li>
+                        <li className="mb-[12px]">Contact</li>
                     </ul>
                 </div>
                 <div>
-                    <h1>Products</h1>
-                    <ul>
-                        <li>Product 1</li>
-                        <li>Product 2</li>
-                        <li>Product 3</li>
-                        <li>Product 4</li>
-                        <li>Product 5</li>
+                    <h1 className="text-[20px] font-bold mb-[10px]">Products</h1>
+                    <ul className="py-[5px] px-[8px]">
+                        <li className="mb-[12px]">Product 1</li>
+                        <li className="mb-[12px]">Product 2</li>
+                        <li className="mb-[12px]">Product 3</li>
+                        <li className="mb-[12px]">Product 4</li>
+                        <li className="mb-[12px]">Product 5</li>
                     </ul>
                 </div>
                 <div>
-                    <h1>Contact</h1>
-                    <ul>
-                        <li><FontAwesomeIcon className='mr-2 text-xl' icon={faEnvelope}/>abc@xelton.com</li>
-                        <li><FontAwesomeIcon className='mr-2 text-xl' icon={faLocationDot}/>Address abc street</li>
-                        <li><FontAwesomeIcon className='mr-2 text-xl' icon={faPhone}/>+91 1234567890</li>
+                    <h1 className="text-[20px] font-bold mb-[10px]">Contact</h1>
+                    <ul className="py-[5px] px-[8px]">
+                        <li className="mb-[12px]"><FontAwesomeIcon className='mr-2 text-xl' icon={faEnvelope}/>abc@xelton.com</li>
+                        <li className="mb-[12px]"><FontAwesomeIcon className='mr-2 text-xl' icon={faLocationDot}/>Address abc street</li>
+                        <li className="mb-[12px]"><FontAwesomeIcon className='mr-2 text-xl' icon={faPhone}/>+91 1234567890</li>
                     </ul>
                 </div>
             </div>
