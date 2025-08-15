@@ -29,7 +29,7 @@ nav {
     margin: 5px 0;
     transition: all 0.3s ease; /* Animation for bars */
   }
-  
+
   /* Adjust bar color when navbar has background */
   .navbarScrolled .hamburger div {
      background-color: #333;

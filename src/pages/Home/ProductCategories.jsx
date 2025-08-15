@@ -3,7 +3,7 @@ import { productCategories } from "./contents"
 export default function ProductCategories(){
     return(
         <div className="flex flex-col justify-center items-center p-5 pt-10 lg:p-20">
-            <h1 className="text-3xl font-bold text-slate-700 mb-10">Heal with Our Therapeutics</h1>
+            <h1 className="text-3xl font-bold text-slate-700 mb-10 text-center">Heal with Our Therapeutics</h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-y-10 gap-x-20 lg:gap-y-20 w-full h-fit justify-around items-center">
                 {productCategories.map((category, index) => (
                     <div key={index} className="flex flex-col relative justify-end rounded-2xl overflow-hidden transition-all ease-in">
