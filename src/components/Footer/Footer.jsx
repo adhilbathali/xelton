@@ -8,12 +8,12 @@ export default function Footer(){
     return(
         <footer className="p-5 pl-10 lg:p-20 pb-10 bg-gradient-to-br from-[royalblue] to-[blueviolet] text-white">
             <div className="flex flex-col lg:flex-row gap-10 justify-around items-start">
-                <div className="max-w-[500px] flex flex-col justify-around items-start">
+                <div className="max-w-[500px] mt-5 lg:mt-0 flex flex-col justify-around items-start">
                     <div className="flex justify-around items-center">
                         <img src="/xelton_white.png" alt="xelton" className="h-[100px] lg:h-[150px]" />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. quaerat ullam nobis qui ipsum nisi doloremque facilis</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ducimus perferendis nulla possimus aut reprehenderit</p>
                     </div>
-                    <button className="mt-3 lg:mt-0 py-1.5 px-7 rounded-full text-lg font-bold border hover:bg-blue-700">Join Us <FontAwesomeIcon icon={faArrowRight}/></button>
+                    <button className="mt-5 lg:mt-0 py-1 px-5 rounded-full text-lg font-bold border hover:bg-blue-700">Join Us <FontAwesomeIcon icon={faArrowRight}/></button>
                 </div>
                 <div>
                     <h1 className="text-[20px] font-bold mb-[10px]">Quick Links</h1>
