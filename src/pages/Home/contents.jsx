@@ -2,46 +2,32 @@ import { faFlask, faCheckCircle, faHandshake, faGlobe } from "@fortawesome/free-
 
 export const productCategories = [
   {
-    title: "Diabetes Care",
-    description: "Advanced formulations to help manage blood sugar levels effectively.",
-    image: "/images/product_categories/glucometer_check.jpg"
+    title: "Dermatology",
+    description: "Clinical solutions for skin health, including treatments for various dermatological conditions.",
+    image: "/images/product_categories/dermatology.jpg"
   },
   {
-    title: "Cardiovascular Health",
-    description: "Medicines for heart health and blood pressure control.",
-    image: "/images/product_categories/blood_pressure_check.jpg"
+    title: "Cosmetics",
+    description: "Medical-grade cosmetic products and non-invasive treatment solutions for aesthetic care.",
+    image: "/images/product_categories/cosmetics.jpg"
   },
   {
     title: "Respiratory Care",
-    description: "Treatments for asthma, COPD, and other respiratory conditions.",
-    image: "/images/product_categories/inhaling.jpg"
-  },
-  {
-    title: "Anti-Tuberculosis Therapy",
-    description: "Effective and WHO-compliant medicines to treat tuberculosis.",
-    image: "/images/product_categories/tb_medication.jpg"
-  },
-  {
-    title: "Pain Management",
-    description: "Safe and effective solutions for acute and chronic pain relief.",
-    image: "/images/product_categories/backpain_relief.jpg"
-  },
-  {
-    title: "Gastrointestinal Care",
-    description: "Medicines for acidity, ulcers, and digestive disorders.",
-    image: "/images/product_categories/enjoying_healthy_meal.jpg"
-  },
-  {
-    title: "Anti-Infectives",
-    description: "Broad-spectrum antibiotics and antiviral medications.",
-    image: "/images/product_categories/handing_medicine.jpg"
-  },
-  {
-    title: "Neurology & Mental Health",
-    description: "Treatments for neurological conditions and mental well-being.",
+    description: "Effective therapies for asthma, COPD, and other respiratory conditions.",
     image: "/images/product_categories/meditating.jpg"
+  },
+  {
+    title: "Gynaecology & Infertility",
+    description: "Comprehensive solutions for women's health, pregnancy care, and infertility treatment.",
+    image: "/images/product_categories/infertility.jpg"
+  },
+  {
+    title: "Ophthalmology",
+    description: "Specialized products for eye care, vision correction, and ophthalmic treatments.",
+    image: "/images/product_categories/eyes.jpg"
   }
 ];
+
 
 export const corePillars = [
     {
